@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GpsSample</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="hint_google_service">嗨 正在準備中</string>
+    <string name="error_hint_google_service_update">嗨 你的 Google Play 需要更新</string>
+    <string name="error_hint_google_service_no">嗨 你沒有提供 Google Play 服務</string>
+    <string name="hint_google_service_connect_success">Google 定位連線成功，正在定位...</string>
+    <string name="error_hint_google_service_connect_fail">Google 定位連線失敗</string>
+    <string name="error_hint_google_service_connect_retry">Google 定位連線需要重試</string>
+
+    <string name="error_hint_gps">嗨 你的定位好像沒有開啊</string>
+    <string name="error_hint_network">嗨 你的網路好像沒有開啊</string>
+    <string name="request_hint_gps">如果要使用這個功能請授權定位</string>
+    <string name="option_gps_open">開啟</string>
+    <string name="option_gps_no">取消</string>
+
+</resources>

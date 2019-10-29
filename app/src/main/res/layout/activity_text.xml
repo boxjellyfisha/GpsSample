@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/root"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:padding="40dp"
+        android:text="Current Location"/>
+
+    <TextView
+        android:id="@+id/tv_location_lat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="lat ???"
+        android:textSize="40sp"/>
+    <TextView
+        android:id="@+id/tv_location_lng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="lng ???"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/tv_location_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="Get Location"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+</LinearLayout>
